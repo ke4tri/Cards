@@ -1,1 +1,1 @@
-# Building a grid of cards of a company products. 
+# Building a grid of cards of a company products.
