@@ -1,47 +1,77 @@
 body {
     display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    /* align-items: flex-start; */
+    /* height:100; */
     
     
 }
 .one {
     border: 1px solid black;
+    width: 20%;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 40px;
+    min-width: 300px;
+    margin-top: 20px;
+   
 }
 
 .two {
     border: 1px solid black;
+    width: 20%;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 40px;
+    min-width: 50px;
+    min-height: 100px;
+    min-width: 300px;
+    margin-top: 20px;
 }
 
 .three {
     border: 1px solid black;
+    width: 20%;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 40px;
+    min-width: 300px;
+    margin-top: 20px;
 }
 
 .four {
     border: 1px solid black;
+    width: 20%;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 40px;
+    min-width: 300px;
+    margin-top: 20px;
 }
 
 .five {
     border: 1px solid black;
+    width: 20%;
     margin-bottom: 10px;
-    margin-right: 5px;
+    margin-right: 40px;
+    min-width: 300px;
+    margin-top: 20px;
+}
+
+.main {
+    min-width: 300px;
+    /* border-style: dotted; */
+  
 }
 
 .h2 {
     display: flex;
     justify-content: center; 
     border: 1px solid black;
+    border-style: dotted;
 }
 
 img {
-  margin: 20px;
-  image-orientation: 10deg;
+  margin: 30px;
+  /* image-orientation: 10deg; */
+  transform: rotate(10deg);
 }
 
 .para {
@@ -61,7 +91,8 @@ img {
 
 li {
     list-style-type: none;
-  
+    margin-left: -25px;
+    font-size: 15px;
 }
 
 h4 {
@@ -71,6 +102,8 @@ h4 {
 
 footer {
     margin-top: -10px;
+    margin-left: 2px;
+    font-size: 10px;
 }
 
 .h4_price {
@@ -78,10 +111,10 @@ footer {
 }
 
 
-.wrapper {
+/* .wrapper {
     display: flex;
     flex-wrap: wrap;
- }
+ } */
  
  .card {
     width: 33%;
@@ -89,3 +122,13 @@ footer {
     box-shadow: 1px 1px lightgrey;
     box-sizing: border-box;
  }
+
+ @media (min-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center
+        /* height:100; */
+        
+        
+    }
+  }
