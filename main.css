@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    font-family: 'Anton', sans-serif;
     /* align-items: flex-start; */
     /* height:100; */
     
@@ -69,9 +70,19 @@ body {
 }
 
 img {
+    /* position: relative; */
   margin: 30px;
   /* image-orientation: 10deg; */
   transform: rotate(10deg);
+}
+
+.sold {
+    display:flex;
+    justify-content: center;
+    margin-top: -250px;
+    margin-bottom: 80px;
+    /* position: absolute ;
+    top: 150px; */
 }
 
 .para {
