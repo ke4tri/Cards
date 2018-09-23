@@ -3,10 +3,10 @@ body {
     flex-wrap:wrap;
     justify-content: center;
     font-family: 'Anton', sans-serif;
-    /* align-items: flex-start; */
-    /* height:100; */
-    
-    
+   /* align-items: flex-start;
+    */
+   /* height:100;
+    */
 }
 .one {
     border: 1px solid black;
@@ -16,9 +16,7 @@ body {
     min-width: 300px;
     margin-top: 20px;
     box-shadow: 8px 15px #888888;
-   
 }
-
 .two {
     border: 1px solid black;
     width: 20%;
@@ -30,7 +28,6 @@ body {
     margin-top: 20px;
     box-shadow: 8px 15px #888888;
 }
-
 .three {
     border: 1px solid black;
     width: 20%;
@@ -40,7 +37,6 @@ body {
     margin-top: 20px;
     box-shadow: 8px 15px #888888;
 }
-
 .four {
     border: 1px solid black;
     width: 20%;
@@ -50,7 +46,6 @@ body {
     margin-top: 20px;
     box-shadow: 8px 15px #888888;
 }
-
 .five {
     border: 1px solid black;
     width: 20%;
@@ -60,26 +55,24 @@ body {
     margin-top: 20px;
     box-shadow: 8px 15px #888888;
 }
-
 .main {
     min-width: 300px;
-    
-    /* border-style: dotted; */
-  
+   /* border-style: dotted;
+    */
 }
-
 .h2 {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     border: 1px solid black;
     border-style: dotted;
 }
-
 img {
-    /* position: relative; */
-  margin: 30px;
-  /* image-orientation: 10deg; */
-  transform: rotate(10deg);
+   /* position: relative;
+    */
+    margin: 10%;
+   /* image-orientation: 10deg;
+    */
+    transform: rotate(10deg);
 }
 
 .sold {
@@ -87,65 +80,53 @@ img {
     justify-content: center;
     margin-top: -250px;
     margin-bottom: 80px;
-    /* position: absolute ;
-    top: 150px; */
+
 }
 
 .para {
     font-weight: bold;
     margin: 0 5px 0 5px;
 }
-
 .available {
     background-color: gray;
     color:yellow;
 }
-
 .h4_spec {
     font-weight: bold;
 }
-
-
 li {
     list-style-type: none;
     margin-left: -25px;
     font-size: 15px;
 }
-
 h4 {
     margin-left: 5px;
     margin-bottom: -15;
 }
-
 footer {
     margin-top: -10px;
     margin-left: 2px;
     font-size: 10px;
 }
-
 .h4_price {
     margin-top: 5px;
 }
-
-
 /* .wrapper {
     display: flex;
     flex-wrap: wrap;
- } */
- 
- .card {
+}
+*/
+.card {
     width: 33%;
     padding: 10px;
     box-shadow: 1px 1px lightgrey;
     box-sizing: border-box;
- }
-
- @media (min-width: 600px) {
+}
+@media (min-width: 600px) {
     body {
         display: flex;
-        justify-content: center
-        /* height:100; */
-        
-        
-    }
-  }
+        justify-content: center 
+       /* height:100;
+        */
+   }
+}
